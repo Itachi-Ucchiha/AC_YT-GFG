@@ -9,7 +9,7 @@ public class LeaderElements {
                 max = a[i];
             }
             if(a[i]<min){
-                min = a[i];     // if any number found greater than max- change the max value to that number
+                min = a[i];     // if any number found smaller than min- change the min value to that number
             }
         }
         System.out.println("max num is: "+max +" \nand min is : "+min);
