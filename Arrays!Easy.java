@@ -2,6 +2,7 @@ public class LeaderElements {
 
     static void getMinMax(int a[], int n)  
     {
+        // TC = O(n) .... SC = O(1)
         int max = a[0];    
         int min = a[0];   
         for(int i = 0; i<n ;i++){   // compare the max and min with rest of the array elements
